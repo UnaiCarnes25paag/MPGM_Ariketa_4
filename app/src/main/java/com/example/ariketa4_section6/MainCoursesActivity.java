@@ -21,7 +21,6 @@ public class MainCoursesActivity extends AppCompatActivity {
                 new Dish("Rubia", "Normal, delgada, muy buena forma y lo mas importante te trata bien", 9999),
                 new Dish("Rizada", "Normal, curby, buena forma y lo mas importante te trata mal", 99),
                 new Dish("Latina", "Bajita, curby, buena forma y celosa", 9)
-
         };
 
         ArrayAdapter<Dish> dishesAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, mainCourses);
